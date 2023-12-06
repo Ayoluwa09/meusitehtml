@@ -1,0 +1,77 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+.mae{
+	background: rgb(2,0,36);
+  background: linear-gradient(215deg, rgba(2,0,36,1) 33%, rgba(37,0,115,1) 57%, rgba(61,0,170,1) 72%, rgba(54,0,154,1) 91%, rgba(98,0,255,1) 100%);
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+
+.filha{
+	background-color: white;
+	border-radius: 12px;
+	padding: 40px;
+	border-radius: 10px;
+
+}
+
+.bloco {
+	align-items: center;
+	text-align: center;
+	top: 35%;
+  left: 0%;
+	font-size: 25px;
+	outline: none;
+
+}
+
+.name, .senha{
+
+	flex: 1;
+	text-align: center;
+	margin-bottom: 2%;
+	margin-left: 0%;
+	font-size: 20px;
+	border: none;
+  outline: none;
+  padding: 10px;
+
+}
+
+.button{
+	transiction-duraction: 0.4s;
+
+}
+
+.button:hover{
+	background: rgb(2,0,36);
+	background: linear-gradient(215deg, rgba(2,0,36,1) 33%, rgba(37,0,115,1) 57%, rgba(61,0,170,1) 72%, rgba(54,0,154,1) 91%, rgba(98,0,255,1) 100%);
+
+	color: white;
+
+}
+
+.button{
+
+	border: none;
+	background-color: rebeccapurple;
+	border-radius: 18px;
+	font-size: 16px;
+	margin-top: 5%;
+	text-align: center;
+	padding: 10px;
+	
+	
+}
+
+		
